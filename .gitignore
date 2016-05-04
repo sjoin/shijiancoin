@@ -1,0 +1,38 @@
+Shijiancoin.app/
+HSB/
+HSB.app/
+src/leveldb/*
+src/run/*
+src/blackcoind1
+src/blackcoind2
+src/check1
+src/*.exe
+src/blackcoin
+src/blackcoind
+src/run
+src/run1
+src/run2
+src/test_blackcoin
+src/build.h
+.*.swp
+.*~*
+.bak
+.rej
+.orig
+.o
+.patch
+blackcoin
+#compilation and Qt preprocessor part
+src/qt/locate/*.qm
+*.qm
+Makefile
+blackcoin-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
